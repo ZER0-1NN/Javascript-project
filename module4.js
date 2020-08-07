@@ -9,6 +9,7 @@ checaIdade(17)
     .then(() => console.log("Maior que 18"))
     .catch(() => console.log("Menor que 18"));
 
+
 // 2° exercício
 var inputName = document.getElementById("user");
 var dataList = document.querySelector("ul");
@@ -33,6 +34,8 @@ const getUserRepo = name => {
         });
 };
 
+
+// 3° exercício
 function renderLoading(loading) {
     dataList.innerHTML = "";
 
