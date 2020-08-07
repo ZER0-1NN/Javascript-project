@@ -37,7 +37,7 @@ const experiencia = (anos => {
 
 experiencia(1);
 
-//5º exercício
+// 5º exercício
 const printUsers = (users => {
     for (var user of users) {
         console.log(`O ${user.nome} possui as habilidades: ${user.habilidades.join(', ')}`);
